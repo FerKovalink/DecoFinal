@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-attachment: fixed;
+    overflow-x: hidden;
+    background-color: #FCF8E8;
+}
+
+.bg_img {
+    background-image: url(../img/bg/bg_x.png);
+    background-repeat: no-repeat;
+    width: $w-100;
+}
+

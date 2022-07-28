@@ -1,0 +1,34 @@
+/* Galeria */
+
+.galeria-container {
+    display: flex;
+    margin: 3% 2% 2% 2%;
+    padding: 1% 2%;
+    flex-wrap: wrap;
+    background: radial-gradient(circle, rgba(252, 248, 232, 1) 0%, rgba(189, 142, 113, 1) 38%);
+    border-radius: 10px;
+}
+
+.galeria {
+    flex: $w-50;
+    padding: 5px;
+}
+
+.galeria__img {
+    width: $w-100;
+    border-radius: 5px;
+    margin-top: 1%;
+}
+
+.galeria-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.galeria-bt {
+    width: $w-100;
+    img {
+        width: $w-200;
+    }
+}

@@ -1,0 +1,9 @@
+.banner {
+    display: flex;
+    justify-content: center;
+    background: radial-gradient(circle, rgba(189, 142, 113, 1) 71%, rgba(216, 206, 165, 1) 100%);
+
+    img {
+        width: $w-70;
+    }
+}

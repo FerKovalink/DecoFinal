@@ -1,0 +1,30 @@
+.bg-deco {
+    background: linear-gradient(90deg, rgba(216, 206, 165, 1) 0%, rgba(189, 142, 113, 1) 51%);
+}
+
+.navf {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+nav{
+    width: $w-100;
+
+    img{
+        width: $w-25;
+        margin-right: 30px;
+    }
+
+    ul{
+        li{
+            a{
+                font-size: $textSm;
+                font-family: $keyFont;
+                margin-left: 5px;
+            }
+        }
+    }
+
+}

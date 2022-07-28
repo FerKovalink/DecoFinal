@@ -1,0 +1,32 @@
+/* Index */
+.bd-placeholder-img {
+    font-size: $textLight;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+
+  .index-body{
+    margin: 3%;
+    border-radius: 10px;
+    background-color: $marron;
+  }
+
+  .font-index{
+    font-family: $secondaryFont;
+    font-size: $textLg;
+    color: $white;
+  }
+
+  .lorem-index{
+    font-size: 1.2rem;
+    font-family: $keyFont;
+    color: $white;
+  }
+
+  .cont-p{
+    font-size: $textSm;
+    font-family: $secondaryFont;
+    font-weight: 580;
+  }

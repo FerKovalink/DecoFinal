@@ -1,0 +1,26 @@
+/* Footer */
+
+.foot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(0deg, rgba(148, 180, 159, 1) 48%, rgba(183, 204, 184, 1) 100%);
+    h1 {
+        padding: 0 15%;
+        text-decoration: none;
+        font-family: $secondaryFont;
+        color: $l-marron;
+        font-size: 1.4rem;
+    }
+}
+
+
+.foot__logo {
+    width: 40px;
+    padding: 3px 0;
+}
+
+.foot__icon {
+    width: 35px;
+    padding-left: 10px;
+}
