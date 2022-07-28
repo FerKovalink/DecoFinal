@@ -5,7 +5,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: #bd8e71;
+    background-color: $marron;
     width: $w-90;
     margin: 20px 0 20px 6%;
     border-radius: 20px;
@@ -35,81 +35,84 @@
     display: none;
 }
 
-.formulario input {
-    background-color: $white;
-    width: $w-90;
-    height: 35px;
-    border-radius: 5px;
-    border-style: solid;
-    border-width: 1px;
-    border-color: $violeta;
-    margin-top: 5px;
-    padding-left: 5px;
-    margin-bottom: 20px;
-}
+.formulario{
 
-.formulario textarea {
-    background-color: $white;
-    width: $w-90;
-    height: 150px;
-    border-radius: 5px;
-    border-style: solid;
-    border-width: 1px;
-    border-color: $violeta;
-    margin-top: 10px;
-    padding-left: 10px;
-    margin-bottom: 20px;
-    padding-top: 15px;
-}
+    h1 {
+        font-size: 2.4rem;
+        padding-bottom: 20px;
+        color: $violeta;
+    }
 
-.formulario label {
-    display: block;
-    float: center;
-}
+    h3 {
+        font-size: 1.3rem;
+        padding-bottom: 30px;
+        color: $marron;
+    }
+    
+    p {
+        font-size: $textMd;
+        color: $marron;
+    }
 
-.formulario button {
-    width: $w-90;
-    height: auto;
-    padding-left: 5px;
-    padding-right: 5px;
-    margin-bottom: 20px;
-    margin-top: 10px;
-    text-transform: uppercase;
-    background-color: $violeta;
-    border-color: $violeta;
-    border-style: solid;
-    border-radius: 10px;
-    cursor: pointer;
-}
+    input {
+        background-color: $white;
+        width: $w-90;
+        height: 35px;
+        border-radius: 5px;
+        border-style: solid;
+        border-width: 1px;
+        border-color: $violeta;
+        margin-top: 5px;
+        padding-left: 5px;
+        margin-bottom: 20px;
+    }
 
-.formulario button p {
-    color: $white;
-}
+    textarea {
+        background-color: $white;
+        width: $w-90;
+        height: 150px;
+        border-radius: 5px;
+        border-style: solid;
+        border-width: 1px;
+        border-color: $violeta;
+        margin-top: 10px;
+        padding-left: 10px;
+        margin-bottom: 20px;
+        padding-top: 15px;
+    }
 
-.formulario span {
-    color: $violeta;
+    button {
+        width: $w-90;
+        height: auto;
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-bottom: 20px;
+        margin-top: 10px;
+        text-transform: uppercase;
+        background-color: $violeta;
+        border-color: $violeta;
+        border-style: solid;
+        border-radius: 10px;
+        cursor: pointer;
+    
+        p {
+            color: $white;
+        }
+    }
+
+    label {
+        display: block;
+        float: center;
+    }
+
+    span {
+        color: $violeta;
+    }
 }
 
 .aviso {
     font-size: 13px;
-    color: #0e0e0e;
-}
-
-.formulario h1 {
-    font-size: 2.4rem;
-    padding-bottom: 20px;
-    color: $violeta;
-}
-
-.formulario h3 {
-    font-size: 1.3rem;
-    padding-bottom: 30px;
-    color: #0e0e0e;
-}
-
-.formulario p {
-    font-size: 1.2rem;
-    color: #0e0e0e;
+    color: $marron;
 }
 
 ::-webkit-input-placeholder {
@@ -130,61 +133,3 @@
     border: 1px solid #19c26e;
 }
 
-/* Acerca de */
-.acerca {
-    background-color: #bd8e71;
-    margin: 3% 5%;
-    padding: 4%;
-    border-radius: 10px;
-}
-
-.ace__1 img {
-    width: 50%;
-    float: left;
-    border-radius: 10px;
-    margin-right: 10px;
-    padding: 1%;
-    background-color: rgba(148, 180, 159, 1);
-}
-
-.ace__2 p {
-    font-size: 1.2rem;
-    font-family: 'Oxygen', sans-serif;
-    color: whitesmoke;
-    text-align: justify;
-}
-
-.ace__2 h1 {
-    font-size: 2rem;
-    margin-bottom: 10px;
-    color: whitesmoke;
-}
-
-.mapa {
-    padding-top: 1%;
-    background-color: #ECB390;
-}
-
-.mapa h1 {
-    font-size: 2.3rem;
-    margin-bottom: 10px;
-    font-family: 'Arima', cursive;
-    color: whitesmoke;
-    text-align: center;
-}
-
-.mapa iframe {
-    height: 100%;
-}
-
-.ace__button {
-    text-decoration: none;
-    color: whitesmoke;
-}
-
-.titulo__button {
-    text-decoration: none;
-    font-family: 'Arima', cursive;
-    font-size: 1.5rem;
-
-}

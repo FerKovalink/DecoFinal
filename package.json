@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git remote add origin https://github.com/FerKovalink/DecoFinal.git"
+    "url": "git remote add origin https://github.com/FerKovalink/DecoFinal"
   },
   "author": "Kova",
   "license": "ISC",

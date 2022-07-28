@@ -1,0 +1,58 @@
+/* Acerca de */
+.acerca {
+    background-color: $marron;
+    margin: 3% 5%;
+    padding: 4%;
+    border-radius: 10px;
+}
+
+.ace__1 img {
+    width: $w-50;
+    float: left;
+    border-radius: 10px;
+    margin-right: 10px;
+    padding: 1%;
+    background-color: rgba(148, 180, 159, 1);
+}
+
+.ace__2 p {
+    font-size: $textMd;
+    font-family: $lastFont;
+    color: $white;
+    text-align: justify;
+}
+
+.ace__2 h1 {
+    font-size: $textMd;
+    margin-bottom: 10px;
+    color: $white;
+}
+
+.mapa {
+    padding-top: 1%;
+    background-color: $l-marron;
+}
+
+.mapa h1 {
+    font-size: 2.3rem;
+    margin-bottom: 10px;
+    font-family: $secondaryFont;
+    color: $white;
+    text-align: center;
+}
+
+.mapa iframe {
+    height: $w-100;
+}
+
+.ace__button {
+    text-decoration: none;
+    color: $white;
+}
+
+.titulo__button {
+    text-decoration: none;
+    font-family: $secondaryFont;
+    font-size: $textSm;
+
+}
